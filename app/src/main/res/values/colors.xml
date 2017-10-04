@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c7f99a</color>
+    <color name="colorPrimaryDark">#306301</color>
+    <color name="colorAccent">#efd958</color>
+    <color name="mainBackgroundColor">#5ee5da</color>
+
+    <!-- styles colors -->
+    <color name="picBackgroundColor">#002e5b</color>
+    <color name="textTitleColor">#FFFFFF</color>
+    <color name="backgroundBlock">#468943</color>
+    <color name="pubTextColor">#6b1a89</color>
+    <color name="btnAdd">#2bc126</color>
+    <color name="btnMin">#990d0d</color>
+</resources>

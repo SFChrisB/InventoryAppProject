@@ -1,0 +1,207 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- styles for activity_details.xml -->
+
+    <style name="adLinVertStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/medPadding</item>
+    </style>
+
+    <style name="adTitleTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/xSmlPadding</item>
+        <item name="android:textColor">@color/textTitleColor</item>
+        <item name="android:textSize">@dimen/bigTextSize</item>
+    </style>
+
+    <style name="adEditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/medTextSize</item>
+    </style>
+
+    <style name="adTitleHorTextStyle">
+        <item name="android:layout_width">@dimen/zeroWeight</item>
+        <item name="android:layout_height">@dimen/xBigPadding</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textTitleColor</item>
+        <item name="android:textSize">@dimen/bigTextSize</item>
+    </style>
+
+    <style name="adTitleHorEditStyle">
+        <item name="android:layout_width">@dimen/zeroWeight</item>
+        <item name="android:layout_height">@dimen/xBigPadding</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/medPadding</item>
+        <item name="android:textColor">@color/textTitleColor</item>
+        <item name="android:textSize">@dimen/bigTextSize</item>
+    </style>
+
+    <style name="adBtnStyle">
+        <item name="android:layout_width">@dimen/zeroWeight</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">@dimen/smlPadding</item>
+        <item name="android:textSize">@dimen/bigTextSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textTitleColor</item>
+    </style>
+
+
+
+    <!-- styles for activity_main.xml -->
+
+
+    <style name="amImViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/medPadding</item>
+        <item name="android:background">@color/picBackgroundColor</item>
+    </style>
+
+    <style name="amPicTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/medPadding</item>
+        <item name="android:layout_margin">@dimen/medPadding</item>
+        <item name="android:textColor">@color/textTitleColor</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/bigTextSize</item>
+    </style>
+
+    <style name="amViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/oneDivider</item>
+        <item name="android:background">@color/textTitleColor</item>
+    </style>
+
+    <style name="amListViewStyle">
+        <item name="android:layout_below">@id/viewTwo</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zeroWeight</item>
+        <item name="android:layout_weight">8</item>
+        <item name="android:paddingLeft">@dimen/xSmlPadding</item>
+        <item name="android:paddingRight">@dimen/xSmlPadding</item>
+        <item name="android:divider">@color/textTitleColor</item>
+        <item name="android:dividerHeight">@dimen/twoDivider</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="amTextviewAddStyle">
+        <item name="android:layout_width">@dimen/zeroWeight</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">@dimen/smlPadding</item>
+        <item name="android:paddingLeft">@dimen/xSmlPadding</item>
+        <item name="android:textColor">@color/textTitleColor</item>
+        <item name="android:textSize">@dimen/xBigTextSize</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="amLinHorStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zeroWeight</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="amFabStyle">
+        <item name="android:layout_width">@dimen/zeroWeight</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">@dimen/xSmlPadding</item>
+    </style>
+
+    <style name="amTextviewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">8</item>
+        <item name="android:paddingTop">@dimen/medPadding</item>
+        <item name="android:paddingBottom">@dimen/medPadding</item>
+        <item name="android:paddingLeft">@dimen/medPadding</item>
+        <item name="android:textColor">@color/textTitleColor</item>
+        <item name="android:textSize">@dimen/bigTextSize</item>
+    </style>
+
+    <!-- styles for list_item.xml -->
+
+
+    <style name="liTextviewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/medPadding</item>
+        <item name="android:paddingLeft">@dimen/medPadding</item>
+        <item name="android:textColor">@color/textTitleColor</item>
+        <item name="android:textSize">@dimen/bigTextSize</item>
+    </style>
+
+    <style name="liImageviewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/medPadding</item>
+        <item name="android:paddingRight">@dimen/medPadding</item>
+    </style>
+
+    <style name="liTextviewPriceStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/medPadding</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/medTextSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="liViewStyle">
+        <item name="android:layout_width">@dimen/oneDivider</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/medPadding</item>
+        <item name="android:layout_marginBottom">@dimen/medPadding</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+    <style name="liTextInputStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/bigTextSize</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/bigTextSize</item>
+    </style>
+
+    <style name="liLinVertStyle">
+        <item name="android:layout_width">@dimen/zeroWeight</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginBottom">@dimen/medPadding</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="liBtnSellStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/picBackgroundColor</item>
+        <item name="android:layout_marginLeft">@dimen/medPadding</item>
+        <item name="android:layout_marginTop">@dimen/medPadding</item>
+    </style>
+
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackgroundColor">
+
+    <ImageView
+        android:id="@+id/searchImBtn"
+        android:src="@mipmap/ic_launcher"
+        style="@style/amImViewStyle"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/searchText"
+            android:text="@string/picText"
+            style="@style/amPicTextStyle"/>
+
+        <View
+            android:id="@+id/viewTwo"
+            style="@style/amViewStyle" />
+
+        <LinearLayout
+            android:id="@+id/emptyView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal|center_vertical">
+
+            <TextView
+                style="@style/amTextviewStyle"
+                android:id="@+id/empty_view_text"
+                android:text="@string/emptyListHint"/>
+
+            <TextView
+                style="@style/amTextviewStyle"
+                android:id="@+id/empty_view_text2"
+                android:text="@string/emptyListHint2"/>
+
+            <TextView
+                style="@style/amTextviewStyle"
+                android:id="@+id/empty_view_text3"
+                android:text="@string/emptyListHint3"/>
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listView"
+            style="@style/amListViewStyle">
+        </ListView>
+
+        <LinearLayout
+            style="@style/amLinHorStyle">
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/xSmlPadding"
+                android:id="@+id/fab"
+                android:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                style="@style/amTextviewAddStyle"
+                android:text="@string/addItemLabel"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

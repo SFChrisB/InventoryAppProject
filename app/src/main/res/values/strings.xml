@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+    <string name="manifestString">Add new Product</string>
+
+    <!--Java Strings -->
+    <string name="orderMessage">Email supplier to place a new order?</string>
+    <string name="invalidQuantChange">You cannot lower the quantity further.</string>
+    <string name="emailAccept">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="dummyDataMax">ALL dummy data already added. Enable dummy data in future?</string>
+    <string name="accept">Yes</string>
+    <string name="successDeleteProduct">Product was successfully deleted!</string>
+    <string name="successDeleteAllProduct">All products were successfully deleted!</string>
+    <string name="deleteItem">You are about to delete the current product?</string>
+    <string name="confirm">Confirm</string>
+    <string name="successAddAllProduct">All dummy data was successfully added!</string>
+    <string name="successAddOneProduct">One dummy data was successfully added!</string>
+    <string name="unsavedChanges">You currently have unsaved changes. Are you sure you want to proceed?</string>
+    <string name="titleNewProduct">Add new Product</string>
+    <string name="titleEditProduct">Edit Product</string>
+
+    <!-- activity_details.xml strings -->
+    <string name="selImage">Pic</string>
+    <string name="hintEmailEdit">supplier@gmail.com</string>
+    <string name="sEmailAdd">Supplier E-mail</string>
+    <string name="hintSTitle">ToysUK ltd</string>
+    <string name="sLabel">Supplier Name</string>
+    <string name="posLabel">+</string>
+    <string name="negLabel">-</string>
+    <string name="image">Image</string>
+
+    <!-- activity_main.xml strings -->
+    <string name="picText">Inventory Management App</string>
+    <string name="addItemLabel">Add New Item</string>
+    <string name="emptyListHint">Inventory is currently empty</string>
+    <string name="emptyListHint2">You can add in default dummy data from the menu at the top.</string>
+    <string name="emptyListHint3">Or you can add a new item using the fab button below.</string>
+
+    <!-- list_item.xml strings -->
+    <string name="itemLabel">Product Name</string>
+    <string name="priceLabel">Price</string>
+    <string name="quantLabel">Quantity: </string>
+    <string name="soldLabel">Units Sold</string>
+    <string name="sellOne">Sold +1</string>
+    <string name="sellTen">Sold +10</string>
+
+    <!-- menu -->
+    <string name="menuEmailOrder">Email Order</string>
+    <string name="menuDeleteItem">Delete item</string>
+    <string name="menuDeleteAll">Delete all</string>
+    <string name="menuDefData">Add Default data</string>
+    <string name="addDummyData1">Add 1 Dummy Data</string>
+    <string name="addDummyDataAll">Add All Dummy Data</string>
+    <string name="saveBtn">Save</string>
+    <string name="delete1Btn">Delete product</string>
+    <string name="orderBtn">Order product</string>
+    <string name="deleteAllBtn">Delete all data</string>
+
+</resources>

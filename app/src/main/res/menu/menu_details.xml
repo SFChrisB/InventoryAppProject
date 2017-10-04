@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".EditorActivity">
+
+    <item
+        android:id="@+id/saveBtn"
+        android:title="@string/saveBtn" />
+
+    <item
+        android:id="@+id/orderBtn"
+        android:title="@string/orderBtn"/>
+
+    <item
+        android:id="@+id/deleteOneItemBtn"
+        android:title="@string/delete1Btn"/>
+
+</menu>

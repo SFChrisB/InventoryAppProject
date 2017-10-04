@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- dp sizes -->
+    <dimen name="imageSize">150dp</dimen>
+    <dimen name="xBigPadding">64dp</dimen>
+    <dimen name="bigPadding">32dp</dimen>
+    <dimen name="medPadding">16dp</dimen>
+    <dimen name="smlPadding">12dp</dimen>
+    <dimen name="xSmlPadding">8dp</dimen>
+    <dimen name="twoDivider">2dp</dimen>
+    <dimen name="oneDivider">1dp</dimen>
+    <dimen name="zeroWeight">0dp</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="xBigTextSize">24sp</dimen>
+    <dimen name="bigTextSize">18sp</dimen>
+    <dimen name="medTextSize">12sp</dimen>
+</resources>
